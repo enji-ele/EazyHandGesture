@@ -6,8 +6,8 @@ using OpenCVForUnity;
 
 namespace HGHandGesture 
 {
-	public class HGMat : MonoBehaviour {
-
+	public class HGMat : MonoBehaviour 
+	{
 		[SerializeField] private Image TextureImage;
 		[HideInInspector] public Mat rgbaMat;
 		[HideInInspector] public Color32[] colors;

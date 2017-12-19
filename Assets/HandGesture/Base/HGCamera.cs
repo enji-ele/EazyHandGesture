@@ -4,8 +4,8 @@ using OpenCVForUnity;
 
 namespace HGHandGesture 
 {
-	public class HGCamera : HGMat {
-
+	public class HGCamera : HGMat 
+	{
 		[System.Serializable] public class WebCameraData 
 		{
 			public string DeviceName = null;

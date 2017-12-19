@@ -2,8 +2,8 @@
 using OpenCVForUnity;
 using HGHandGesture;
 
-public class ImageTracking : HGMat {
-
+public class ImageTracking : HGMat 
+{
 	public Texture2D HandImage;
 	public TrackingType trackingType = TrackingType.HGOrigin;
 	public enum TrackingType 

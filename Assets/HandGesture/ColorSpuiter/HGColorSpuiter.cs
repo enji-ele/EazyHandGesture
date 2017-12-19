@@ -7,7 +7,7 @@ namespace HGHandGesture
 {
 	public static class HGColorSpuiter
 	{
-		public static Point storedTouchPoint = null;
+		public static Point storedTouchPoint;
 
 		//ColorをScalarに変換
 		public static Scalar ColorToScalar(Color color) 

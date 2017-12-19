@@ -4,8 +4,8 @@ using UnityEngine;
 using OpenCVForUnity;
 using HGHandGesture;
 
-public class CameraTracking : HGCamera {
-
+public class CameraTracking : HGCamera 
+{
 	/*======================================
     * Override Method
 	======================================*/

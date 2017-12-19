@@ -8,7 +8,7 @@ namespace HGHandGesture
 	//手の認識を行う
 	public static class HGOrigin
 	{
-		public static int depthThreashold = 9000; //検出の精度(0 ~ 30000)
+		public static int depthThreashold = 9000; //検出の精度 (0 ~ 30000)
 		public static Color ContourRangeColor = Color.green;
 		public static Color ArmRangeColor = Color.blue;
 		public static Color HandRangeColor = Color.cyan;
